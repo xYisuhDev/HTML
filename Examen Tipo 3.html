@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Suscripción</title>
+</head>
+<body>
+    <h1>Formulario de suscripción</h1>
+    <p>Ingrese sus datos personales y preferencias para registrarse en nuestro boletín informativo.</p>
+    <form>
+        <fieldset>
+            <legend>Información básica</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Preferencias</legend>
+            <p>¿Con qué frecuencia desea recibir el boletín?</p>
+            <input type="radio" id="diario" name="frecuencia" value="diario">
+            <label for="diario">Diario</label><br>
+            
+            <input type="radio" id="semanal" name="frecuencia" value="semanal">
+            <label for="semanal">Semanal</label><br>
+            
+            <input type="radio" id="mensual" name="frecuencia" value="mensual">
+            <label for="mensual">Mensual</label><br>
+            
+            <p>Elija sus temas de interés:</p>
+            <input type="checkbox" id="tecnologia" name="interes" value="tecnologia">
+            <label for="tecnologia">Tecnología</label>
+            
+            <input type="checkbox" id="ciencia" name="interes" value="ciencia">
+            <label for="ciencia">Ciencia</label>
+            
+            <input type="checkbox" id="arte" name="interes" value="arte">
+            <label for="arte">Arte</label>
+            
+            <input type="checkbox" id="deportes" name="interes" value="deportes">
+            <label for="deportes">Deportes</label><br><br>
+            <button type="submit">Suscribirse</button>
+            <button type="reset">Limpiar</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
+</body>
+</html>

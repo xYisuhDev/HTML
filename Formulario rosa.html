@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Alumnos</title>
+</head>
+<body>
+<div align="center">
+    <h2>DATOS DE ALUMNOS - CONTINUACIÓN</h2>
+    <table border="2" cellpadding="10" bgcolor="pink" width="900px">
+        <form>
+        <tr>
+            <td style="color:blue">Teclea día de nacimiento: <input type="number" id="dia" name="dia" style="width: 35px">
+            <label for="opciones">Seleccionar un mes de nacimiento:</label>
+            <select id="opciones" name="meses">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+            
+            Teclea año de nacimiento.................. <input type="number" id="año" name="año" style="width: 45px"><br><br>            
+            
+            <label for="opciones2">Seleccione CURSO </label>
+            <select id="opciones2" name="cursos">
+                <option value="smr1">1º SMR</option>
+                <option value="smr2">2º SMR</option>
+                <option value="daw1">1º DAW</option>
+                <option value="daw2">2º DAW</option>
+                <option value="asir1">1º ASIR</option>
+                <option value="asir2">2º ASIR</option>
+            </select>
+            <br>
+            -----------------------------------------------------------------------------------
+            <br>
+            <a>Elige 3 materias optativas:</a>
+            <input type="checkbox" id="ingles" name="asignatura" value="ingles">Inglés
+            <input type="checkbox" id="frances" name="asignatura" value="frances">Francés
+            <input type="checkbox" id="deporte" name="asignatura" value="deporte">Deporte
+            <input type="checkbox" id="astronomia" name="asignatura" value="astronomia">Astronomía
+            <input type="checkbox" id="historia" name="asignatura" value="historia">Historia
+            <input type="checkbox" id="paginasweb" name="asignatura" value="paginasweb">Páginas Web
+            <input type="checkbox" id="redes" name="asignatura" value="redes">Redes
+            <br>
+            -----------------------------------------------------------------------------------
+            <br><br>
+            <a>Selecciona el turno:</a>
+            <input type="radio" id="diurno" name="turno" value="masculino">Diurno
+            <input type="radio" id="nocturno" name="turno" value="femenino">Nocturno
+            <input type="radio" id="vespertino" name="turno" value="femenino">Vespertino
+            <br><br>
+            -----------------------------------------------------------------------------------
+            <br><br>
+    <div align="center">
+            <input type="submit" value="Enviar datos">
+            <input type="reset" value="Limpiar datos">
+            <button type="button" onclick="window.close()">Cerrar ventana</button>
+            <button type="button" onclick="window.location.href='Formulario amarillo.html'">Anterior Formulario</button>
+            </td>
+</div>
+        </tr>
+        </form>
+    </table>
+</div>
+</body>
+</html>
