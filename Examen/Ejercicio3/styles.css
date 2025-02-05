@@ -1,0 +1,11 @@
+table {
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+    background-color: aqua;
+}
+
+p.titulotabla{
+    font-weight: bold;
+    text-align: center;
+}

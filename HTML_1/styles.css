@@ -1,0 +1,14 @@
+body {
+    background-color: lightblue;
+    margin-left: 20%;
+    margin-right: 30%;
+}
+
+div.parrafo {
+      text-align: justify;  
+}
+
+img.imagen1 {
+    width: 90%;
+    height: 70%;
+}

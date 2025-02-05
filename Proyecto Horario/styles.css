@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table.horario th,
+table.horario td {
+    border: 2px solid #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 300
+}
+
+table.horario th {
+    background-color: #333;
+    color: white;
+}
+
+td.seginf {
+    background-color: rgb(90, 219, 129);
+    color: #000000;
+}
+
+td.aplweb {
+    background-color: rgb(214, 69, 69);
+    color: #000000;
+}
+
+td.sered {
+    background-color: rgb(69, 180, 214);
+    color: #000000;
+}
+
+td.eng {
+    background-color: rgb(204, 214, 69);
+    color: #000000;
+}
+
+td.sor {
+    background-color: rgb(204, 91, 204);
+    color: #000000;
+}
+
+td.empresa {
+    background-color: rgb(224, 137, 22);
+    color: #000000;
+}

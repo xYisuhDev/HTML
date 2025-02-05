@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+
+ul.fila1{
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul.fila2{
+    font-weight: 700;
+    font-size: medium;
+}
+
+ul.fila3{
+    font-size: small;
+}
+
+ol.filaorg{
+    color: blueviolet;
+}
