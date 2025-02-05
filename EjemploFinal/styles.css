@@ -25,6 +25,12 @@ header .logo p {
     font-size: 14px;
 }
 
+header .logo img {
+    display: flex;
+    width: 350px;
+    height: 200;
+}
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -78,7 +84,7 @@ form {
 }
 
 fieldset {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     padding: 10px;
 }
@@ -123,4 +129,9 @@ footer {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+footer img {
+    height: 80px;
+    float: left;
 }
