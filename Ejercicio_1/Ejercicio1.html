@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicio 1 (Examen HTML)</title>
+</head>
+<body>
+    <h1> Formulario de registro</h1><br>
+    <p>Este formulario nos permite inscribirnos en el curso. Si tiene dudas, acceda a la web del instituto en el siguiente enlace: web del IES Mar de Cádiz.</p><br>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="datospersonales" id="nombre"><br><br>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="datospersonales" id="apellidos"><br><br>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="datospersonales" id="edad">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de la cuenta</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" name="datoscuenta" id="email"><br><br>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="datoscuenta" id="contraseña"><br><br>
+                    <label for="fecha">Fecha de inicio:</label>
+                    <input type="date" name="datoscuenta" id="fechainicio">
+                    <p>Tipo de solicitud:</p>
+                    <input type="radio" name="datoscuenta" id="presencial">
+                    <label for="presencial">Presencial</label><br>
+                    <input type="radio" name="datoscuenta" id="semi-presencial">
+                    <label for="semi-presencial">Semi-presencial</label><br>
+                    <input type="radio" name="datoscuenta" id="distancia">
+                    <label for="distancia">A distancia</label><br><br>
+                    <label for="terminos">Acepto los términos y condiciones del acuerdo.</label><br>
+                    <input type="checkbox" name="datoscuenta" id="terminos">
+                    <label for="terminos">Sí, acepto.</label><br><br>
+                    <label for="provincia">Elija su provincia:</label>
+                    <select id="opciones" name="datoscuenta"><br>
+                        <option value="cadiz">Cádiz</option>
+                        <option value="huelva">Huelva</option>
+                        <option value="sevilla">Sevilla</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="jaen">Jaen</option>
+                        <option value="granada">Granada</option>
+                        <option value="almeria">Almeria</option>
+                        <option value="malaga">Málaga</option>
+                    </select>
+        </fieldset>
+        <fieldset>
+            <legend>Detalles del curso</legend>
+                    <label for="deta">Seleccione su horario preferido:</label><br><br>
+                    <input type="radio" name="detallescurso" id="mañana">Mañana<br>
+                    <input type="radio" name="detallescurso" id="tarde">Tarde<br>
+                    <input type="radio" name="detallescurso" id="noche">Noche<br>
+                    <label for="terminos2">Acepto los términos y condiciones:</label>
+                    <input type="checkbox" name="detallescurso" id="terminos2">
+        </fieldset><br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+</body>
+</html>
